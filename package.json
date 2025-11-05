@@ -1,0 +1,56 @@
+{
+  "name": "dev-themes",
+  "displayName": "Dev Themes",
+  "description": "4 beautiful dark themes: Purple Surface Dark, Ubuntu Dark, Moon Phases, and Solar Future",
+  "version": "0.0.3",
+  "publisher": "AgraeonLabs",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adiagcodelance/VS-Code-Themes"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "purple",
+    "ubuntu",
+    "color theme",
+    "dark",
+    "developer",
+    "coding"
+  ],
+  "homepage": "https://github.com/adiagcodelance/VS-Code-Themes",
+  "bugs": {
+    "url": "https://github.com/adiagcodelance/VS-Code-Themes/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Surface Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-surface-dark.json"
+      },
+      {
+        "label": "Ubuntu Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ubuntu-dark.json"
+      },
+      {
+        "label": "Moon Phases",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moon-phases.json"
+      },
+      {
+        "label": "Solar Future",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solar-future.json"
+      }
+    ]
+  }
+}
